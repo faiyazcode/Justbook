@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    border: 1px solid red;
+    height: 40px;
+}
+
+.navbar .content{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}

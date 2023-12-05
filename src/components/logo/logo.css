@@ -1,0 +1,10 @@
+h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: aqua;
+}   
+
+span{
+    color: var(--main-color);
+}  

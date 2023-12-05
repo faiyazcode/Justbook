@@ -1,0 +1,19 @@
+.custom-buttton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 15px 40px;
+    background-color: var(--main-color);
+    color:var(--text-color);
+    white-space: nowrap;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+.flight-lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+}
+
+.flight-lists .card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.flight-lists .card-header .destination{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap:10px;
+    width: 40%;
+    height: 100%;
+}
+
+
+.flight-lists .card-header .destination .logo{
+    display: flex;
+    gap:10px;
+    color: var(--main-color);
+}
+
+.flight-lists .card-header .destination .logo h3{
+    text-transform: uppercase;
+}
+
+.flight-lists .card-header .destination h3{
+    color: var(--dark-color);
+}
+
+.flight-lists .card-header .destination span{
+    color: var(--dark-color);
+}
+
+.flight-lists .card-header .icon{
+    display: flex;
+    color: var(--main-color);
+    height: 100%;
+}
+
+.flight-lists .list{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+
+
+

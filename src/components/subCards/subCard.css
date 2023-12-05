@@ -1,0 +1,72 @@
+.sub-card-main {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid var(--dark-color);
+    padding: 20px 10px;
+    gap: 30px;
+    /* border-bottom: 1px solid var(--dark-color); */
+  }
+  
+  .sub-card-main .fligh-details {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .sub-card-main .fligh-details .heading {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    gap: 5px;
+  }
+  
+  .sub-card-main .fligh-details h3 {
+    font-size: 16px;
+    color: var(--dark-color);
+  }
+  
+  .sub-card-main .fligh-details h3 span {
+    font-weight: bold;
+    color: var(--main-color);
+  }
+  
+  .sub-card-main .fligh-details h3 p {
+    font-size: 11px;
+  }
+  
+  .sub-card-main .fligh-sub-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    position: relative;
+    /* padding: 20px 10px; */
+  }
+  
+  .sub-card-main .fligh-sub-details .logo-section {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+    max-width: 20%;
+  }
+  
+  .sub-card-main .fligh-sub-details .logo-section .flight-logo {
+    width: 100px;
+    height: 50px;
+    position: relative;
+  }
+  
+  .sub-card-main .fligh-sub-details .logo-section img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
